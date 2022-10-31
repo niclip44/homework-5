@@ -17,6 +17,19 @@ p {
 
 }
 
+p.suprise{
+ color: red;
+  font-size: 50px;
+  
+}
+
+p.date{
+ color:red;
+  font-size: 12px;
+  
+}
+
+
 h4{
  color: navy;
   margin-left: 80px;
