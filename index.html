@@ -12,17 +12,18 @@
     <h4> The date and time is... </h4>
       <script>
 const d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
+document.getElementById("date").innerHTML = d;
+    </script>
     
-    <p id="demo" style="display:none">Peek-a-boo!</p>
+    <p id="suprise" style="display:none">Peek-a-boo!</p>
 
-<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+<button type="button" onclick="document.getElementById('suprise').style.display='block'">Click Me!</button>
     
     
     <p> Everytime you refresh there is a random number from 1 - 300. </p>
+    
     <script>
-document.getElementById("demo").innerHTML =
+document.getElementById("random").innerHTML =
 Math.floor(Math.random() * 300);
 </script>
     
