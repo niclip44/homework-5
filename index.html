@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
-    <p id "if"></p>
+    
     
     <button onclick="document.getElementById('date').innerHTML=Date()">The time is?</button>
 
@@ -33,13 +33,18 @@ Math.floor(Math.random() * 300);
 document.getElementById("math").innerHTML = Math.pow(8,2);
 </script>
     
+    <p id="if"></p>
     <script>
-if (new Date().getHours() < 12) {
-  document.getElementById("if").innerHTML = "Good Morning!";
+const hour = new Date().getHours(); 
+let greeting;
+
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
 }
-else{
-  document.getElementbyId("if").innerHTML = "Good Evening!";
-}     
+
+document.getElementById("if").innerHTML = greeting;
 </script>
     
     
