@@ -10,6 +10,7 @@
     <h1>Welcome to Homework 5!</h1>
     
     <h4> The date and time is... </h4>
+    <p id="date"></p>
       <script>
 const d = new Date();
 document.getElementById("date").innerHTML = d;
@@ -21,10 +22,17 @@ document.getElementById("date").innerHTML = d;
     
     
     <p> Everytime you refresh there is a random number from 1 - 300. </p>
-    
+    <p id ="random"></p>
     <script>
 document.getElementById("random").innerHTML =
 Math.floor(Math.random() * 300);
+</script>
+    
+    <h4> This will return the power of some numbers </h4>
+    <p id="math"></p>
+
+<script>
+document.getElementById("math").innerHTML = Math.pow(8,2);
 </script>
     
     
