@@ -1,12 +1,13 @@
 body {
   background-color: lightblue;
+  text-indent: 50px;
 }
 
 p{
- text-indent: 50px;
+ color: white;
  
 }
  h2{
-text-indent: 50px;
+color: orange;
 
 }
