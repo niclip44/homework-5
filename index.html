@@ -10,11 +10,13 @@
   <body>
     <h1> Welcome to Homework 5!</h1>
     
+    
+    <h2> 1 </h2>
     <button onclick="document.getElementById('date').innerHTML=Date()">The time is?</button>
 
     <p id="date"></p>
      
-    
+    <h2> 2 </h2>
     <p> Everytime you refresh there is a random number from 1 - 300. </p>
     <p id ="random"></p>
     <script>
@@ -22,6 +24,8 @@ document.getElementById("random").innerHTML =
 Math.floor(Math.random() * 300);
 </script>
     
+    
+    <h2> 3 </h2>
     <h4> This will return the power of some numbers </h4>
     <p id="math"></p>
 
@@ -29,6 +33,7 @@ Math.floor(Math.random() * 300);
 document.getElementById("math").innerHTML = Math.pow(6,3);
 </script>
     
+    <h2> 4 </h2>
     <p> if it is before 12 am, the greeting will be "Good morning", if it is after the greeting will be "Good Evening"</p>
     
     <p id="if"></p>
@@ -47,6 +52,7 @@ if (hour < 12) {
 document.getElementById("if").innerHTML = greeting;
 </script>
     
+    <h2> 5 </h2>
      <p id="suprise" style="display:none">Peek-a-boo!</p>
 
 <button type="button" onclick="document.getElementById('suprise').style.display='block'">Click Me!</button>
