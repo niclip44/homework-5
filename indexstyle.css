@@ -2,34 +2,3 @@ body {
   background-color: lightblue;
 }
 
-h1 {
-  color: navy;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-  color: navy;
-text-align: center;
-
-}
-
-.if{
-  color: red;
-  font-size: 15px;
-  text-align: center;
-}
-
-.date{
- color: orange;
-  text-align: center;
-  font-size: 30px;
-}
-
-h4{
- color: navy;
-  text-align: center;
-  font-family: verdana;
-}
-
